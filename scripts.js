@@ -20,6 +20,6 @@ if (cantidadNotas <= 10) {
 	let CantNotas = parseInt(msjError);
 	let Notas = parseInt(notas);
 	const resultado = (Notas * CantNotas) / CantNotas;
-	let decimal = resultado.toFixed(2);
+	let decimal = resultado.parseFloat(2);
 	alert(decimal);
 }
